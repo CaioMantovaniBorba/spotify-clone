@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library } from 'lucide-react';
+import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -25,7 +25,17 @@ export default function Home() {
           </nav>
         </aside>
 
-        <main className="flex-1 p-6">MAIN</main>
+        <main className="flex-1 p-6">
+          <div className="flex items-center gap-3">
+            <button className="rounded-full bg-black/20 p-1">
+              <ChevronLeft />
+            </button>
+
+            <button className="rounded-full bg-black/20 p-1">
+              <ChevronRight />
+            </button>
+          </div>
+        </main>
       </div>
 
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">FOOTER</footer>
