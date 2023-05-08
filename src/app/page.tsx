@@ -35,6 +35,35 @@ export default function Home() {
               <ChevronRight />
             </button>
           </div>
+
+          <h1 className="font-semibold text-3xl nt-10">Good Afternoon</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 overflow-hidden hover:bg-white/20 transition-colors">
+              <img src="/album.jpg" width={104} height={104} alt="Capa do album" />
+              <strong>Wasting Light</strong>
+            </a>
+          </div>
         </main>
       </div>
 
