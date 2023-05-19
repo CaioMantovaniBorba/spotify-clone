@@ -1,4 +1,4 @@
-import { Home as ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 
